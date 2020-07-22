@@ -5,8 +5,8 @@ AWS Lambda + serverless example in node.js
 
 1. `node.js` + `npm` (download and install from https://nodejs.org/)
 1. `git` command line tool or `GitHub Desktop` (download and install from https://desktop.github.com/)
-1. text editor (I recommend https://www.sublimetext.com/)
-1. AWS free tier account (you will need to create an AWS access key ID + secret access key)
+1. text editor (I recommend downloading and installing https://www.sublimetext.com/)
+1. AWS free tier account (you will need to create an AWS access key ID + secret access key. Google how to do this. Follow a tutorial. Make sure to copy + paste the credentials somewhere, you will need them later.)
 
 ## Setup (Windows)
 
