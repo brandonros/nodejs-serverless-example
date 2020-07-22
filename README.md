@@ -46,9 +46,9 @@ AWS Lambda + serverless example in node.js
 1. You will install project dependencies using `npm` (dependencies are managed in the `package.json` manifest and imported into the running program with `require()` in `index.js`)
 1. You will clone a `git` (type of source control that allows many people to work on a project at once through branches/commits/pull requests) repository. You'll clone and work under the `master` branch by default automatically.
 1. You will open source files in a text editor and observe syntax highlighting given the type of file (`.js` / `.json` / `.md` in this case)
-1. You will read a document in Markdown format (`README.md`)
-1. You will read files that represent objects + properties in JSON format (`package.json` and `mock-event.json`)
-1. You will learn how to open a terminal/command line prompt and navigate directories (`cd` stands for change directory, `~` represents the home directory for the user you are currently logged in to on your operating system)
+1. You will read a document in Markdown format (`README.md`). Markdown is a format that allows writers to add structure (headers, lists, bullet points, separation) to test documents.
+1. You will read files that represent objects + properties in JSON format (`package.json` and `mock-event.json`). JSON is a data-interchange format that helps computers read data from files and structure it into memory through different data types (arrays, objects, strings, numbers). JSON is how most web pages return data from a server to a client (example: Twitter feed, Google searches, YouTube video search results)
+1. You will learn how to open a terminal/command line prompt (also calld a `shell`) and navigate directories (`cd` stands for change directory, `~` represents the home directory for the user you are currently logged in to on your operating system) as well as run commands
 1. You will set environment variables and pass them to a command line program/script (`AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` get passed to `npm run configure-credentials`)
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
 1. You will learn the different effects passing different variables/parameters through HTTP request bodies (encoded in JSON format in `mock-event.json`) has.
