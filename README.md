@@ -31,7 +31,7 @@ AWS Lambda + serverless example in node.js
 1. `npm run deploy`
 1. `npm run invoke`
 
-## Conepts learned
+## Concepts learned
 
 1. You will install `node.js` (type of runtime environment to use with the JavaScript progamming language) and `npm` (package manager used with node.js projects)
 1. You will clone a git (type of source control) repository (you'll clone and work under the `master` branch)
