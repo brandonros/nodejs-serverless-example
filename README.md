@@ -43,10 +43,10 @@ AWS Lambda + serverless example in node.js
 ## Concepts learned
 
 1. You will install `node.js` (type of runtime environment to use with the JavaScript progamming language) and `npm` (package manager used with node.js projects)
-1. You will clone a git (type of source control that allows many people to work on a project at once through branches/commits/pull requests) repository (you'll clone and work under the `master` branch)
+1. You will clone a `git` (type of source control that allows many people to work on a project at once through branches/commits/pull requests) repository. You'll clone and work under the `master` branch by default automatically.
 1. You will open source files in a text editor and observe syntax highlighting given the type of file (`.js` / `.json` / `.md` in this case)
 1. You will read a document in Markdown format (`README.md`)
-1. You will read files that are in JSON format (`package.json` and `mock-event.json`)
+1. You will read files that represent objects + properties in JSON format (`package.json` and `mock-event.json`)
 1. You will learn how to open a terminal/command line prompt and navigate directories (`cd` stands for change directory, `~` represents the home directory for the user you are currently logged in to on your operating system)
 1. You will set environment variables and pass them to a command line program/script (`AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` get passed to `npm run configure-credentials`)
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
