@@ -5,8 +5,8 @@
   "scripts": {
     "configure-credentials:windows": "./node_modules/.bin/sls config credentials --provider aws --key $env:AWS_ACCESS_KEY_ID --secret $env:AWS_SECRET_ACCESS_KEY",
     "configure-credentials:mac": "./node_modules/.bin/sls config credentials --provider aws --key $AWS_ACCESS_KEY_ID --secret $AWS_SECRET_ACCESS_KEY",
-    "deploy": "./node_modules/.bin/sls deploy",
-    "invoke": "./node_modules/.bin/sls invoke --function get-stock-price --log --path mock-event.json"
+    "deploy": "./node_modules/.bin/sls deploy --config serverless.json",
+    "invoke": "./node_modules/.bin/sls invoke --config serverless.json --function get-stock-price --log --path mock-event.json"
   },
   "license": "ISC",
   "dependencies": {
