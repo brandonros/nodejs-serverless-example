@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 
 const getStockPrice = async (ticker) => {
-  const response = await fetch(`https://www.optionsprofitcalculator.com/ajax/getOptions?stock=${ticker}&reqId=1`)
+  const response = await fetch(`https://www.optionsprofitcalculator.com/ajax/getStockPrice?stock=${ticker}&reqId=1`)
   const responseBody = await response.json()
   return responseBody.price.last
 }

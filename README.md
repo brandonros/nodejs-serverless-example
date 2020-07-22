@@ -6,6 +6,7 @@ AWS Lambda + serverless example in node.js
 1. `node.js` + `npm` (download and install from https://nodejs.org/)
 1. `git` command line tool or `GitHub Desktop` (download and install from https://desktop.github.com/)
 1. text editor (I recommend https://www.sublimetext.com/)
+1. AWS free tier account (you will need to create an AWS Access Key ID + AWS Secret Key)
 
 ## Usage (Windows)
 
@@ -38,7 +39,7 @@ AWS Lambda + serverless example in node.js
 1. You will open source files in a text editor and observe syntax highlighting given the type of file (`.js` / `.json` / `.md` in this case)
 1. You will read a document in Markdown format (`README.md`)
 1. You will read files that are in JSON format (`package.json` and `mock-event.json`)
-1. You will learn how to open a terminal/command line prompt and navigate directories (`cd` stands for change directory)
+1. You will learn how to open a terminal/command line prompt and navigate directories (`cd` stands for change directory, `~` represents the home directory for the user you are currently logged in to on your operating system)
 1. You will set environment variables and pass them to a command line program/script (`AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` get passed to `npm run configure-credentials`)
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
 1. You will deploy an `AWS Lambda` function (also known as "serverless"). This code will be ran on every incoming HTTP request/event.
