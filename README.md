@@ -33,11 +33,11 @@ AWS Lambda + serverless example in node.js
 1. Open `mock-event.json` and read the stock ticker inside of it. It should read `SPY`.
 1. Run `npm run deploy && npm run invoke` to deploy + invoke your function to AWS Lambda + AWS API Gateway through the `serverless` command line interface tool.
 1. Note the price of `SPY` being returned.
+
+## Exercises left to the reader
+
 1. Open `mock-event.json` and change `SPY` to `APPL`.
 1. Run `npm run invoke` in your terminal/command line to call your existing function with `APPL` now (because you updated it in `mock-event.json` and that gets past along to our `invoke` request). The deployed function has not change, but you are able to pass different data on each request by changing `mock-event.json`
-
-## Exercise left to the reader
-
 1. Change the `getStockPrice` function call in `index.js` to call the `/ajax/getStockOptions` URL from `optionsprofitcalculator.com` instead of the `/ajax/getStockPrice` URL. Hint: you should update the function name to accurately represent what your function is doing, and you will need to update the return value (`responseBody.price.last` will not exist on the `getStockOptions` API call, it is specific to the `getStockPrice` call)
 
 ## Concepts learned
