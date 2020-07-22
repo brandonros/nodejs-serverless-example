@@ -8,7 +8,7 @@ AWS Lambda + serverless example in node.js
 1. text editor (I recommend https://www.sublimetext.com/)
 1. AWS free tier account (you will need to create an AWS access key ID + secret access key)
 
-## Usage (Windows)
+## Setup (Windows)
 
 1. `git clone` (or clone with Github Desktop)
 1. Open a PowerShell (Start -> `Windows PowerShell`)
@@ -17,10 +17,8 @@ AWS Lambda + serverless example in node.js
 1. `$env:AWS_ACCESS_KEY_ID="your_aws_access_key_id"`
 1. `$env:AWS_SECRET_ACCESS_KEY="your_aws_secret_access_key"`
 1. `npm run configure-credentials:windows`
-1. `npm run deploy`
-1. `npm run invoke`
 
-## Usage (Mac)
+## Setup (Mac)
 
 1. `git clone` (or clone with Github Desktop)
 1. Open a command line prompt (Spotlight (Command + Space) -> `Terminal.app`)
@@ -29,8 +27,18 @@ AWS Lambda + serverless example in node.js
 1. `export AWS_ACCESS_KEY_ID=your_aws_access_key_id`
 1. `export AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key`
 1. `npm run configure-credentials:mac`
-1. `npm run deploy`
-1. `npm run invoke`
+
+## Usage
+
+1. Open `mock-event.json` and read the stock ticker inside of it. It should read `SPY`.
+1. Run `npm run deploy && npm run invoke` to deploy + invoke your function to AWS Lambda + AWS API Gateway through the `serverless` command line interface tool.
+1. Note the price of `SPY` being returned.
+1. Open `mock-event.json` and change `SPY` to `APPL`.
+1. Run `npm run invoke` in your terminal/command line to call your existing function with `APPL` now (because you updated it in `mock-event.json` and that gets past along to our `invoke` request). The deployed function has not change, but you are able to pass different data on each request by changing `mock-event.json`
+
+## Exercise left to the reader
+
+1. Change the `getStockPrice` function call in `index.js` to call the `getStockOptions` URL from `optionsprofitcalculator.com` instead. Hint: you should update the function name to accurately represent what your function is doing, and you will need to update the return value (`responseBody.price.last` will not exist on the `getStockOptions` API call, it is specific to the `getStockPrice` call)
 
 ## Concepts learned
 
@@ -42,5 +50,6 @@ AWS Lambda + serverless example in node.js
 1. You will learn how to open a terminal/command line prompt and navigate directories (`cd` stands for change directory, `~` represents the home directory for the user you are currently logged in to on your operating system)
 1. You will set environment variables and pass them to a command line program/script (`AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` get passed to `npm run configure-credentials`)
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
+1. You will learn the different effects passing different variables/parameters through HTTP request bodies (encoded in JSON format in `mock-event.json`) has.
 1. You will deploy an `AWS Lambda` function (also known as "serverless"). This code will be ran on every incoming HTTP request/event.
 1. You will invoke the deployed function (aka make an HTTP request/create an event). This example shows the flow of a request/response model.
