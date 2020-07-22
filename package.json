@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-serverless-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "configure-credentials": "./node_modules/.bin/sls config credentials --provider aws --key $AWS_ACCESS_KEY_ID --secret $AWS_SECRET_ACCESS_KEY",
+    "deploy": "./node_modules/.bin/sls deploy",
+    "invoke": "./node_modules/.bin/sls invoke --function get-stock-price --log --path event.json"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.75.1"
+  }
+}
