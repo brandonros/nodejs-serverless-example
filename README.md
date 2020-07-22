@@ -43,6 +43,7 @@ AWS Lambda + serverless example in node.js
 ## Concepts learned
 
 1. You will install `node.js` (type of runtime environment to use with the JavaScript progamming language) and `npm` (package manager used with node.js projects)
+1. You will install project dependencies using `npm` (dependencies are managed in the `package.json` manifest and imported into the running program with `require()` in `index.js`)
 1. You will clone a `git` (type of source control that allows many people to work on a project at once through branches/commits/pull requests) repository. You'll clone and work under the `master` branch by default automatically.
 1. You will open source files in a text editor and observe syntax highlighting given the type of file (`.js` / `.json` / `.md` in this case)
 1. You will read a document in Markdown format (`README.md`)
@@ -52,4 +53,4 @@ AWS Lambda + serverless example in node.js
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
 1. You will learn the different effects passing different variables/parameters through HTTP request bodies (encoded in JSON format in `mock-event.json`) has.
 1. You will deploy an `AWS Lambda` function (also known as "serverless"). This code will be ran by a server managed by AWS on every incoming HTTP request/event. It will return a response (status code + response body) to the client (whoever invoked the request to the server).
-1. You will invoke the deployed function (aka make an HTTP request/create an event). This example shows the flow of a request/response model.
+1. You will invoke the deployed function (aka make an HTTP request/create an event to the server and receive a response from the server). This example shows the flow of a request/response model.
