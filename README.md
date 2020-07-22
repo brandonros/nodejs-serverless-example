@@ -51,5 +51,5 @@ AWS Lambda + serverless example in node.js
 1. You will set environment variables and pass them to a command line program/script (`AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` get passed to `npm run configure-credentials`)
 1. You will learn what an HTTP request is (the way web browsers and applications (clients) interact with backend services/databases).
 1. You will learn the different effects passing different variables/parameters through HTTP request bodies (encoded in JSON format in `mock-event.json`) has.
-1. You will deploy an `AWS Lambda` function (also known as "serverless"). This code will be ran on every incoming HTTP request/event.
+1. You will deploy an `AWS Lambda` function (also known as "serverless"). This code will be ran by a server managed by AWS on every incoming HTTP request/event. It will return a response (status code + response body) to the client (whoever invoked the request to the server).
 1. You will invoke the deployed function (aka make an HTTP request/create an event). This example shows the flow of a request/response model.
