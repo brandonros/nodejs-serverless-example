@@ -11,8 +11,8 @@ AWS Lambda + serverless example in node.js
 ## Setup (Windows)
 
 1. `git clone` (or clone with Github Desktop)
-1. Open a PowerShell (Start -> `Windows PowerShell`)
-1. `cd` to where the repo is cloned (`~\Documents\GitHub\ndoejs-serverless-example`)
+1. Open a PowerShell (Start -> `Windows PowerShell`). Type the following commands into the terminal one at a time (you and copy and paste). Press Enter in between each command to run it.
+1. `cd` to where the repo is cloned. Example: `cd ~\Documents\GitHub\nodejs-serverless-example`
 1. `npm install`
 1. `$env:AWS_ACCESS_KEY_ID="your_aws_access_key_id"`
 1. `$env:AWS_SECRET_ACCESS_KEY="your_aws_secret_access_key"`
@@ -21,8 +21,8 @@ AWS Lambda + serverless example in node.js
 ## Setup (Mac)
 
 1. `git clone` (or clone with Github Desktop)
-1. Open a command line prompt (Spotlight (Command + Space) -> `Terminal.app`)
-1. `cd` to where the repo is cloned (`~/Documents/GitHub/ndoejs-serverless-example`)
+1. Open a command line prompt (Spotlight (Command + Space) -> `Terminal.app`). Type the following commands into the terminal one at a time (you and copy and paste). Press Enter in between each command to run it.
+1. `cd` to where the repo is cloned. Example: `cd ~/Documents/GitHub/nodejs-serverless-example`
 1. `npm install`
 1. `export AWS_ACCESS_KEY_ID=your_aws_access_key_id`
 1. `export AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key`
@@ -44,7 +44,7 @@ AWS Lambda + serverless example in node.js
 
 1. You will install `node.js` (type of runtime environment to use with the JavaScript progamming language) and `npm` (package manager used with node.js projects). These are executable programs that your computer runs that allow you to program. `Google Chrome`, `Microsoft Word`, and `iMessage` are also "computer programs" (granted, they are not written in node.js. They are written and compiled differently in different programming languages for different target devices/operating systems.)
 1. You will install project dependencies using `npm` (dependencies are managed in the `package.json` manifest and imported into the running program with `require()` in `index.js`)
-1. You will clone a `git` (type of source control that allows many people to work on a project at once through branches/commits/pull requests) repository. You'll clone and work under the `master` branch by default automatically.
+1. You will clone a `git` repository. `git` is a type of source control that allows many people to work on a project at once through branches/commits/pull requests while keeping a codebase always accessible on a server for everybody. You'll clone and work under the `master` branch by default automatically.
 1. You will read source files in a text editor and observe syntax highlighting given the type of file (`.js` / `.json` / `.md` in this case) as well as write/save changes.
 1. You will read a document in Markdown format (`README.md`). Markdown is a format that allows writers to add structure (headers, lists, bullet points, separation) to test documents.
 1. You will read files that represent objects + properties in JSON format (`package.json` and `mock-event.json`). JSON is a data-interchange format that helps computers read data from files and structure it into memory through different data types (arrays, objects, strings, numbers). JSON is how most web pages return data from a server to a client (example: Twitter feed, Google searches, YouTube video search results)
