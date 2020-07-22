@@ -24,8 +24,8 @@ AWS Lambda + serverless example in node.js
 1. Open a command line prompt (Spotlight Search (Command + Space) -> `Terminal.app`). Type the following commands into the terminal one at a time (you can copy and paste as well as use the Tab key on your keyboard for auto-completion when typing). Press Enter in between each command to run it.
 1. `cd` to where the repo is cloned. Example: `cd ~/Documents/nodejs-serverless-example`
 1. `npm install`
-1. `export AWS_ACCESS_KEY_ID=your_aws_access_key_id`
-1. `export AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key`
+1. `export AWS_ACCESS_KEY_ID="your_aws_access_key_id"`
+1. `export AWS_SECRET_ACCESS_KEY="your_aws_secret_access_key"`
 1. `npm run configure-credentials:mac`
 
 ## Usage
