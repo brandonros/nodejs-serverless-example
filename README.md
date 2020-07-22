@@ -38,7 +38,7 @@ AWS Lambda + serverless example in node.js
 
 ## Exercise left to the reader
 
-1. Change the `getStockPrice` function call in `index.js` to call the `getStockOptions` URL from `optionsprofitcalculator.com` instead. Hint: you should update the function name to accurately represent what your function is doing, and you will need to update the return value (`responseBody.price.last` will not exist on the `getStockOptions` API call, it is specific to the `getStockPrice` call)
+1. Change the `getStockPrice` function call in `index.js` to call the `/ajax/getStockOptions` URL from `optionsprofitcalculator.com` instead of the `/ajax/getStockPrice` URL. Hint: you should update the function name to accurately represent what your function is doing, and you will need to update the return value (`responseBody.price.last` will not exist on the `getStockOptions` API call, it is specific to the `getStockPrice` call)
 
 ## Concepts learned
 
