@@ -11,7 +11,7 @@ AWS Lambda + serverless example in node.js
 ## Setup (Windows)
 
 1. `git clone` (or clone with Github Desktop)
-1. Open a PowerShell (Start -> `Windows PowerShell`). Type the following commands into the terminal one at a time (you and copy and paste). Press Enter in between each command to run it.
+1. Open a PowerShell (Start -> `Windows PowerShell`). Type the following commands into the terminal one at a time (you can copy and paste as well as use the Tab key on your keyboard for auto-completion when typing). Press Enter in between each command to run it.
 1. `cd` to where the repo is cloned. Example: `cd ~\Documents\GitHub\nodejs-serverless-example`
 1. `npm install`
 1. `$env:AWS_ACCESS_KEY_ID="your_aws_access_key_id"`
@@ -21,7 +21,7 @@ AWS Lambda + serverless example in node.js
 ## Setup (Mac)
 
 1. `git clone` (or clone with Github Desktop)
-1. Open a command line prompt (Spotlight (Command + Space) -> `Terminal.app`). Type the following commands into the terminal one at a time (you and copy and paste). Press Enter in between each command to run it.
+1. Open a command line prompt (Spotlight (Command + Space) -> `Terminal.app`). Type the following commands into the terminal one at a time (you can copy and paste as well as use the Tab key on your keyboard for auto-completion when typing). Press Enter in between each command to run it.
 1. `cd` to where the repo is cloned. Example: `cd ~/Documents/GitHub/nodejs-serverless-example`
 1. `npm install`
 1. `export AWS_ACCESS_KEY_ID=your_aws_access_key_id`
