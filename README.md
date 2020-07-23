@@ -31,7 +31,7 @@ AWS Lambda + serverless example in node.js
 ## Usage
 
 1. Open `mock-event.json` and read the stock ticker inside of it. It should read `SPY`.
-1. Run `npm run deploy && npm run invoke` to deploy + invoke your function to AWS Lambda + AWS API Gateway through the `serverless` command line interface tool.
+1. Run `npm run deploy && npm run invoke` to deploy + invoke your function to AWS Lambda + AWS API Gateway through the `serverless` command line interface tool. (`&&` is a way to chain multiple commands together)
 1. Note the price of `SPY` being returned.
 
 ## Exercises left to the reader
